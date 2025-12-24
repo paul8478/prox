@@ -42,3 +42,38 @@
 }
 
 
+
+
+
+
+/* Floating icons */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Shimmer overlay */
+.shimmer {
+  background: linear-gradient(
+    120deg,
+    transparent 30%,
+    rgba(255,255,255,0.2) 50%,
+    transparent 70%
+  );
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+
+
+
+
