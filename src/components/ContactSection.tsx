@@ -70,11 +70,6 @@ export function ContactSection() {
                 </Button>
               </div>
             </div>
-            
-            {/* Character */}
-            <div className="mt-8">
-              <div className="text-6xl">👨‍💻</div>
-            </div>
           </div>
           
           </div>
