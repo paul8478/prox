@@ -16,6 +16,7 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
     "lucide-react": "^0.562.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
