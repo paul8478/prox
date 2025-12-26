@@ -47,18 +47,18 @@ export function Education() {
   };
 
   return (
-    <div className='education-bg'>
-      <div className="max-w-4xl mx-auto p-6 bg-gray-50 min-h-screen">
+    <div className='education-bg '>
+      <div className="max-w-4xl mx-auto p-6 bg-gray-50 min-h-screen ">
         
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Education Timeline</h1>
+        <div className="text-center mb-12 ">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4 relative z-50">Education Timeline</h1>
           <p className="text-lg text-gray-600">My academic journey and achievements</p>
         </div>
 
         <div className="relative" style={{ minHeight: '800px' }}>
           
           {/* Timeline line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gray-400 top-0 h-full"></div>
+          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gray-400 top-0 h-full "></div>
 
           {educationData.map((item, index) => (
             <div key={item.id} className="relative mb-16 last:mb-0">
