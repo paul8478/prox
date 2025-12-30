@@ -10,7 +10,7 @@ export function Navigation() {
         {/* Navigation Links */}
         <div className="flex space-x-8">
           <a 
-            href="#home" 
+            href="/ " 
             className="text-white text-sm font-medium hover:text-gray-300 transition-colors py-4 px-4"
           >
             Home
@@ -22,7 +22,7 @@ export function Navigation() {
             Projects
           </a>
           <a 
-            href="#youtube" 
+            href="youtube" 
             className="text-white text-sm font-medium hover:text-gray-300 transition-colors py-4 px-4"
           >
             Youtube
