@@ -11,6 +11,7 @@ import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
 
 import Youtube from "./pages/Youtube";
+import Contact from "./pages/Contact";
 
 export default function App(){
   return (
@@ -38,6 +39,8 @@ export default function App(){
 
             {/* ===== YOUTUBE PAGE ===== */}
             <Route path="/youtube" element={<Youtube />} />
+            {/* ===== CONTACT PAGE ===== */}
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
 

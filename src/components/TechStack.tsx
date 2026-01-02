@@ -29,7 +29,7 @@ export function TechStack() {
   ];
 
   return (
-    <section className="py-20 skill-card">
+    <section className="py-20 skill-card ">
       <div className="max-w-2xl mx-auto text-center">
                   <h1 className="text-4xl font-bold text-gray-800 mb-4">Tech Stack </h1>
 
@@ -70,7 +70,8 @@ export function TechStack() {
     bg-gradient-to-r from-orange-400 to-pink-500
     rounded-full px-6 py-3
     hover:scale-105 transition-all duration-300
-    mb-6
+    margin-bottom-150
+    mt-8
     
   "
 >

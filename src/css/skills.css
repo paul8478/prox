@@ -41,3 +41,15 @@
   position: relative;
   z-index: 2; /* Higher z-index to ensure content is above both pseudo-elements */
 }
+
+.margin-bottom-150 {
+  margin-bottom: 60px;   /* Mobile default */
+}
+
+@media (min-width: 640px) {
+  .margin-bottom-150 {
+    margin-bottom: 100px; /* Tablets */
+  }
+}
+
+

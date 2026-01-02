@@ -9,11 +9,11 @@ export function Experience() {
   const images = [bluestocks, Eu, spring, ngtr];
 
   return (
-    <section id="experience" className="py-20 experience-bg">
+    <section id="experience" className="py-20 experience-bg ">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl mb-8 text-center">
-            Work Experience
+            Work Experience as Intern 
           </h2>
 
           <p className="text-lg text-muted-foreground mb-12 text-center max-w-2xl mx-auto">

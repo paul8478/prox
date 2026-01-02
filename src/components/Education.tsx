@@ -48,7 +48,7 @@ export function Education() {
 
   return (
     <div className='education-bg '>
-      <div className="max-w-4xl mx-auto p-6 bg-gray-50 min-h-screen ">
+      <div className="max-w-4xl mx-auto p-8 bg-gray-50 min-h-screen  magin-t ">
         
         <div className="text-center mb-12 ">
           <h1 className="text-4xl font-bold text-gray-800 mb-4 relative z-50">Education Timeline</h1>
