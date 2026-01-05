@@ -11,6 +11,7 @@ import { Footer } from "./components/Footer";
 import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
 import { Details } from "./components/details";
+import React from "react";
 
 
 import Youtube from "./pages/Youtube";
