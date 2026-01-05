@@ -10,7 +10,7 @@ import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
-import {Details} from "./components/details";
+import {Details} from "./components/Detailsx";
 import React from "react";
 
 
