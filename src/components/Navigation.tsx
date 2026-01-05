@@ -34,7 +34,7 @@ export function Navigation() {
           </Link>
 
           <a
-            href="#projects"
+            href="/allprojects"
             className="px-4 py-2 text-sm text-white rounded-lg hover:bg-white/10 transition"
           >
             Projects

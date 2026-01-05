@@ -4,11 +4,14 @@ import { Navigation } from "./components/Navigation";
 import { HeroSection } from "./components/HeroSection";
 import { ProjectsGrid } from "./components/ProjectsGrid";
 import { TechStack } from "./components/TechStack";
-import { AllProjects } from "./components/AllProjects";
+import { AllProjects } from "./pages/AllProjects";
+import {Pro } from "./components/pro";
 import { ContactSection } from "./components/ContactSection";
-import { FooterSection } from "./components/FooterSection";
+import { Footer } from "./components/Footer";
 import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
+import { Details } from "./components/details";
+
 
 import Youtube from "./pages/Youtube";
 import Contact from "./pages/Contact";
@@ -28,11 +31,13 @@ export default function App(){
                 <>
                   <HeroSection />
                   <ProjectsGrid />
+                  <Details/>
                   <TechStack />
                   <Education />
                   <Experience />
-                  <AllProjects />
+                  <Pro />
                   <ContactSection />
+
                 </>
               }
             />
@@ -41,10 +46,11 @@ export default function App(){
             <Route path="/youtube" element={<Youtube />} />
             {/* ===== CONTACT PAGE ===== */}
             <Route path="/contact" element={<Contact />} />
+            <Route path="/allprojects" element={<AllProjects />} />
           </Routes>
         </main>
 
-        <FooterSection />
+        <Footer/>
       </div>
     </Router>
   );

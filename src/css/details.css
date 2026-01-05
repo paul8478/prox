@@ -1,0 +1,14 @@
+.text-css{
+   text-align: center;
+   font-size: 4rem;
+   font-weight: bold; 
+   font-family: sans-serif;
+   margin-top: 10vh;
+   margin-bottom: 8vh;
+   color: rgba(250, 250, 249, 0.907);
+}
+
+.c-width{
+  width: 67% !important;
+  margin: auto;
+}

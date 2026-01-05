@@ -1,0 +1,138 @@
+
+
+
+/* ===== SECTION ===== */
+.pro-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--background), rgba(255,255,255,0.04));
+  padding: 6rem 1rem;
+}
+
+/* ===== CONTAINER ===== */
+.pro-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.pro-wrapper {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* ===== LABEL & HEADING ===== */
+.pro-label {
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+.pro-heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 5rem;
+  background: linear-gradient(to right, #ffffff, #9ca3af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== GRID ===== */
+.pro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2.5rem;
+  width: 70%;
+  margin: auto;
+}
+
+/* ===== CARD ===== */
+.pro-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  height: 400px;
+  width: 350px;
+}
+
+.pro-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-6px);
+}
+
+/* ===== CARD HEADER ===== */
+.pro-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pro-role {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.pro-year {
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ===== CONTENT ===== */
+.pro-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.pro-description {
+  font-size: 14px;
+  color: #9ca3af;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* ===== TECH STACK ===== */
+.pro-tech-label {
+  font-size: 11px;
+  color: #9ca3af;
+  margin-bottom: 0.75rem;
+}
+
+.pro-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.pro-tech-item {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ===== LINK BUTTON ===== */
+.pro-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.widthx {
+  width: 70%;
+  margin: auto;
+}
