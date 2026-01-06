@@ -11,8 +11,7 @@ export function Details() {
       <div className="container mx-auto px-4">
         <div className="c-width mx-auto">
           <h2 className="text-css">
-            I am Web & AI Developer  with strong & focus on developing web & Ai applications have good and strong user experience
-          </h2>
+ I am a Web & AI Developer focused on building intelligent, scalable web applications with seamless functionality and exceptional user experience using modern web and AI technologies.          </h2>
         </div>
       </div>
     </section>

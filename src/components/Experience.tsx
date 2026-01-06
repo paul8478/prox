@@ -9,7 +9,7 @@ export function Experience() {
   const images = [bluestocks, Eu, spring, ngtr];
 
   return (
-    <section id="experience" className="py-20 experience-bg ">
+    <section id="experience" className="py-8 experience-bg ">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl mb-8 text-center">

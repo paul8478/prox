@@ -1,14 +1,55 @@
-.text-css{
-   text-align: center;
-   font-size: 4rem;
-   font-weight: bold; 
-   font-family: sans-serif;
-   margin-top: 10vh;
-   margin-bottom: 8vh;
-   color: rgba(250, 250, 249, 0.907);
+.text-css {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-top: 10vh;
+  margin-bottom: 8vh;
+
+  /* 🔥 Gradient Text */
+  background: linear-gradient(
+    120deg,
+    #ffffff,
+    #a78bfa,
+    #38bdf8
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* ✨ Soft Glow */
+  text-shadow:
+    0 0 20px rgba(167, 139, 250, 0.25),
+    0 0 40px rgba(56, 189, 248, 0.15);
+
+  /* 🎬 Smooth animation */
+  animation: fadeUp 1.2s ease-out forwards;
 }
 
-.c-width{
-  width: 67% !important;
+/* Width container */
+.c-width {
+  width: 68%;
   margin: auto;
+}
+
+/* 🌊 Fade + Slide animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 📱 Responsive polish */
+@media (max-width: 768px) {
+  .text-css {
+    font-size: 2.2rem;
+  }
+
+  .c-width {
+    width: 90%;
+  }
 }
