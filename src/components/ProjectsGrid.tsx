@@ -87,21 +87,10 @@ export function ProjectsGrid() {
           </Card>
 
           {/* ================= YOUTUBE CARD ================= */}
-          <Card className="group aspect-square bg-white/10 backdrop-blur-xl border border-white/20">
-            <a href={socialLinks.youtube} target="_blank" rel="noopener noreferrer" className="flex h-full items-center justify-center">
-              <img
-                src="https://yt3.googleusercontent.com/goYPVOiLvw_fjsdx8-8qi9yG6uxyrCmisx2HB_lsvpopM-58Lrz7U-IOOXzJLhOyNaw_0hJ7Jg=s160-c-k-c0x00ffffff-no-rj"
-                className="w-20 h-20 rounded-full"
-              />
-            </a>
-          </Card>
+          <Card className=" group relative aspect-square bg-white/10 backdrop-blur-xl border border-white/20 text-white transition-all duration-500 hover:scale-[1.06] hover:-translate-y-2 hover:shadow-[0_0_40px_rgba(239,68,68,0.45)] overflow-hidden "> <div className="absolute inset-0 bg-gradient-to-br from-red-500/20 via-transparent to-red-600/20 opacity-0 group-hover:opacity-100 transition" /> <div className="relative z-10 p-6 h-full flex items-center justify-center"> <a href={socialLinks.youtube} target="_blank" rel="noopener noreferrer" className="p-6 border border-white/20 rounded-xl" > <img src="https://yt3.googleusercontent.com/goYPVOiLvw_fjsdx8-8qi9yG6uxyrCmisx2HB_lsvpopM-58Lrz7U-IOOXzJLhOyNaw_0hJ7Jg=s160-c-k-c0x00ffffff-no-rj" className="w-20 h-20 rounded-full transition group-hover:scale-125" /> </a> </div> </Card>
 
           {/* ================= GITHUB CARD ================= */}
-          <Card className="group aspect-square bg-white/10 backdrop-blur-xl border border-white/20">
-            <a href={socialLinks.github} target="_blank" rel="noopener noreferrer" className="flex h-full items-center justify-center">
-              <img src={githubImg} className="w-12 h-12" />
-            </a>
-          </Card>
+          <Card className=" group relative aspect-square bg-white/10 backdrop-blur-xl border border-white/20 text-white transition-all duration-500 hover:scale-[1.06] hover:-translate-y-2 hover:shadow-[0_0_40px_rgba(34,211,238,0.4)] overflow-hidden "> <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/20 via-transparent to-blue-400/20 opacity-0 group-hover:opacity-100 transition" /> <div className="relative z-10 p-6 h-full flex items-center justify-center"> <a href={socialLinks.github} target="_blank" rel="noopener noreferrer" className="p-6 border border-white/20 rounded-xl" > <img src={githubImg} className="w-12 h-12 transition group-hover:scale-125 group-hover:rotate-12" /> </a> </div> </Card>
 
         </div>
       </div>
